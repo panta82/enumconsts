@@ -1,0 +1,30 @@
+{
+  "name": "enumconsts",
+  "version": "1.0.0",
+  "description": "Just node.js consts as an enum. Nothing more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panta82/enumconsts.git"
+  },
+  "keywords": [
+    "enum",
+    "consts",
+    "constants",
+    "enoent",
+    "errors",
+    "signals",
+    "codes",
+    "error-codes",
+    "error-constants"
+  ],
+  "author": "Ivan Pantic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/panta82/enumconsts/issues"
+  },
+  "homepage": "https://github.com/panta82/enumconsts#readme"
+}
