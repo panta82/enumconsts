@@ -1,4 +1,4 @@
-#Enum Consts
+# Enum Consts
 
 Just the contents of `os.constants`, in a form better parsed by IDE-s and editors. Also includes explanations as JSDoc.
 
