@@ -548,5 +548,5 @@ module.exports = {
 };
 
 // For those who like uppercase
-module.exports.SIGNALS = module.exports.signal;
+module.exports.SIGNALS = module.exports.signals;
 module.exports.ERRNO = module.exports.errno;
