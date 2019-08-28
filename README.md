@@ -23,7 +23,7 @@ fs.readFile('test.txt', (err, data) => {
 
 ```
 
-You can see all the constants here: https://nodejs.org/api/os.html#os_os_constants_1
+You can see all the constants here: <https://nodejs.org/api/os.html#os_os_constants_1>
 
 One small adition is that consts are available in uppercase as well, for those who like that.
 
@@ -32,6 +32,10 @@ const SIGNALS = require('enumconsts').SIGNALS;
 
 console.log(SIGNALS.SIGINT);
 ```
+
+### Updates
+
+- **1.1.0** - Better JSDOC structure, probably better intellisense in JetBrains editors
 
 ### Licence
 

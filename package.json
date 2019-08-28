@@ -1,6 +1,6 @@
 {
   "name": "enumconsts",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Just node.js consts as an enum. Nothing more.",
   "main": "index.js",
   "scripts": {
@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/panta82/enumconsts/issues"
   },
-  "homepage": "https://github.com/panta82/enumconsts#readme"
+  "homepage": "https://github.com/panta82/enumconsts#readme",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
 }
