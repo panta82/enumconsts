@@ -8,9 +8,14 @@
     "index.d.ts"
   ],
   "scripts": {
+    "check-code": "npm run format:check && npm run lint:check",
+    "format": "prettier --write '**/*.js'",
+    "format:check": "prettier --check '**/*.js'",
     "generate-types": "tsc",
-    "prepublishOnly": "npm run generate-types",
-    "preversion": "npm run generate-types",
+    "lint": "eslint --fix '**/*.js'",
+    "lint:check": "eslint '**/*.js'",
+    "prepublishOnly": "npm run check-code && npm run generate-types",
+    "preversion": "npm run check-code && npm run generate-types",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -35,6 +40,8 @@
   },
   "homepage": "https://github.com/panta82/enumconsts#readme",
   "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
     "prettier": "^1.18.2",
     "typescript": "^4.4.3"
   }
