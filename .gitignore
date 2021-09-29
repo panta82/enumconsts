@@ -1,1 +1,12 @@
+# IDEs
 .idea
+.code
+
+# node/npm/yarn
+node_modules
+npm-debug.log*
+yarn-error.log
+
+# system files
+.DS_Store
+.history
