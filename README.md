@@ -92,6 +92,10 @@ Alias for `libuv`.
 
 - **1.1.0** - Better JSDOC structure, probably better intellisense in JetBrains editors
 
+### Releasing
+
+Just run `npm run release` and follow the instructions.
+
 ### Licence
 
 MIT
