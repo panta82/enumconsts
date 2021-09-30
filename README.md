@@ -90,7 +90,19 @@ Alias for `libuv`.
 
 ### Updates
 
-- **1.1.0** - Better JSDOC structure, probably better intellisense in JetBrains editors
+##### **1.1.0**  
+- Better JSDOC structure
+- Probably better intellisense in JetBrains editors
+
+##### **2.0.0**
+Big update by [BendingBender](https://github.com/BendingBender):
+- Typescript types
+- Use frozen objects instead of classes
+- Update to latest Node.js constants + descriptions
+- Document all exported members
+- Reduce NPM package size
+
+Major version bump is due to the usage of `Object.freeze()` in exports.
 
 ### Releasing
 
