@@ -102,7 +102,12 @@ Big update by [BendingBender](https://github.com/BendingBender):
 - Document all exported members
 - Reduce NPM package size
 
-Major version bump is due to the usage of `Object.freeze()` in exports.
+Major version bump is due to:
+- the usage of `Object.freeze()` in exports
+- `dlopen` and `libuv` constants are now exported as separate objects, no longer included with `errno`. 
+
+##### **2.0.1**
+- Update README to include correct 2.0.0 breaking changes information.
 
 ### Releasing
 
