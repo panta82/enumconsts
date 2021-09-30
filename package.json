@@ -1,6 +1,6 @@
 {
   "name": "enumconsts",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Node.js constants (ERRNO, SIGNALS, DLOPEN, PRIORITY) as javascript enums (frozen objects). Typescript types included.",
   "main": "index.js",
   "types": "index.d.ts",
